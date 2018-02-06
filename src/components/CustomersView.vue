@@ -1,13 +1,13 @@
 <template>
   <div>
       <div>{{ $route.params.index }}</div>
-    <kendo-grid ref="grid" :data-source="customers" :editable="'inline'" @save="onSave" @remove="onRemove">
-      <kendo-grid-column field="ContactName" title="Contact Name"></kendo-grid-column>
-      <kendo-grid-column field="ContactTitle" title="Contact Title"></kendo-grid-column>
-      <kendo-grid-column field="CompanyName" title="Company Name"></kendo-grid-column>
-      <kendo-grid-column field="Country"></kendo-grid-column>
-      <kendo-grid-column :command="['edit', 'destroy']"></kendo-grid-column>
-  </kendo-grid>
+      <kendo-grid ref="grid" :data-source="customers" :editable="'inline'" @save="onSave" @remove="onRemove">
+          <kendo-grid-column field="ContactName" title="Contact Name"></kendo-grid-column>
+          <kendo-grid-column field="ContactTitle" title="Contact Title"></kendo-grid-column>
+          <kendo-grid-column field="CompanyName" title="Company Name"></kendo-grid-column>
+          <kendo-grid-column field="Country"></kendo-grid-column>
+          <kendo-grid-column :command="['edit', 'destroy']"></kendo-grid-column>
+      </kendo-grid>
   </div>
 </template>
 
