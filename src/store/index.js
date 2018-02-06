@@ -26,6 +26,15 @@ export default new Vuex.Store({
         }
     },
     mutations: {
+        edit (state, customer) {
+            var foundCustomer = state.customers.find((cust) => {
+                return cust.CustomerID === customer.CustomerID
+            })
+
+            var index = state.customers.indexOf(foundCustomer)
+
+            state.customers[index] = customer
+        },
         add (state, customer) {
             state.customers.push(customer)
         },
