@@ -1,6 +1,6 @@
-# vuex-app
+# Using Vuex with Kendo UI for Vue
 
-> A Vue.js project
+> This sample project shows how Vuex can be used and integrated with Kendo UI for Vue.
 
 ## Build Setup
 

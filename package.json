@@ -1,6 +1,6 @@
 {
   "name": "vuex-app",
-  "description": "A Vue.js project",
+  "description": "This sample project shows how Vuex can be used and integrated with Kendo UI for Vue.",
   "version": "1.0.0",
   "author": "Progress",
   "license": "MIT",
