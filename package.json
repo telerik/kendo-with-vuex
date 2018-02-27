@@ -15,6 +15,7 @@
     "@progress/kendo-layout-vue-wrapper": "latest",
     "@progress/kendo-theme-default": "latest",
     "@progress/kendo-ui": "latest",
+    "babel-polyfill": "^6.26.0",
     "vue": "^2.5.11",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
